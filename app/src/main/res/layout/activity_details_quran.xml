@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="islami.ui.quran.details.DetailsActivity">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/tarnsperant"
+        app:elevation="0dp"
+        >
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolBare"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <TextView
+        android:id="@+id/nameSura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="sura"
+        android:padding="50dp"
+        android:textSize="35dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleDetails"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+        android:layout_margin="40dp"
+        tools:listitem="@layout/item_sura_details"
+        android:background="@drawable/shap_recycle_details"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
