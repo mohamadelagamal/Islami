@@ -3,12 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudioProjects/Islami_mvvm/app/src/main/res/drawable-anydpi/icon_play.xml" value="0.2105" />
+        <entry key="..\:/AndroidStudioProjects/Islami_mvvm/app/src/main/res/drawable-anydpi/puse.xml" value="0.2305" />
         <entry key="..\:/AndroidStudioProjects/Islami_mvvm/app/src/main/res/drawable/shap_number.xml" value="0.144" />
         <entry key="..\:/AndroidStudioProjects/Islami_mvvm/app/src/main/res/drawable/shap_recycle_details.xml" value="0.1615" />
         <entry key="..\:/AndroidStudioProjects/Islami_mvvm/app/src/main/res/drawable/shap_sebha.xml" value="0.1615" />
         <entry key="..\:/AndroidStudioProjects/Islami_mvvm/app/src/main/res/drawable/splash_image.xml" value="0.144" />
         <entry key="..\:/AndroidStudioProjects/Islami_mvvm/app/src/main/res/layout/activity_details.xml" value="0.136" />
         <entry key="..\:/AndroidStudioProjects/Islami_mvvm/app/src/main/res/layout/activity_details_hades.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/Islami_mvvm/app/src/main/res/layout/activity_details_quran.xml" value="0.25416666666666665" />
         <entry key="..\:/AndroidStudioProjects/Islami_mvvm/app/src/main/res/layout/activity_home.xml" value="0.1574074074074074" />
         <entry key="..\:/AndroidStudioProjects/Islami_mvvm/app/src/main/res/layout/activity_splash.xml" value="0.11302083333333333" />
         <entry key="..\:/AndroidStudioProjects/Islami_mvvm/app/src/main/res/layout/content_sebha.xml" value="0.25416666666666665" />
